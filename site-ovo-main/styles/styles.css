@@ -1,0 +1,298 @@
+/* CSS básico já definido anteriormente */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'pautua';
+    src: url(patua-one/PatuaOne-Regular.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8E5B1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFCC00;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divisao {
+    display: flex;
+    align-items: center;
+    width: 74.5%;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 200px;
+}
+
+.search-bar input {
+    width: 800px;
+    height: 45px;
+    padding: 5px 8px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.user-icon button {
+    background-color: #FFF;
+    color: #FFCC00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'pautua';
+}
+
+.user-icon button img {
+    width: 20px;
+}
+
+.main-banner .image-grid {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #FFCC00;
+    width: 74.5%;
+}
+
+.main-banner {
+    display: flex;
+    justify-content: center;
+    background-color: #FFCC00;
+}
+
+.main-banner img {
+    width: 150px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+/* Carrossel */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    background-color: #DDD;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: 'pautua';
+}
+
+.carousel {
+    overflow: hidden;
+    width: 80%;
+}
+
+.carousel ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel ul li a {
+    font-size: 19px;
+    width: 200px;
+}
+
+.carousel ul li {
+    flex: 0 0 150px;
+    text-align: center;
+}
+
+.carousel a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.carousel-prev,
+.carousel-next {
+    background-color: #FFCC00;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.carousel-prev {
+    margin-right: 10px;
+}
+
+.carousel-next {
+    margin-left: 10px;
+}
+
+/* alojamento início */
+
+.tituloAlojamento {
+    background-color: #FFCC00;
+    padding: 25px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.596);
+}
+
+.alojamento {
+    padding: 20px;
+    text-align: center;
+    font-family: 'pautua';
+}
+
+.alojamento h2 {
+    font-size: 36px;
+    color: #000000;
+    font-family: 'pautua';
+}
+
+.conteudoAlojamento p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* alojamento fim */
+
+.sobre-nos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'pautua';
+}
+
+.sobre-nos h2 {
+    font-size: 24px;
+    color: #000000;
+    font-family: 'pautua';
+}
+
+.sobre-nos img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sobre-nos div {
+    width: 30%;
+    text-align: center;
+    font-family: 'pautua';
+}
+
+footer {
+    background-color: #FFCC00;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'pautua';
+}
+
+/*boletim*/
+
+.boletim {
+    display: flex;
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+    font-family: 'pautua';
+    /* background-color: #ffffff; */
+    /* width: 500px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 470px;
+}
+
+.boletim h2 {
+    font-size: 36px;
+    font-family: 'pautua';
+    /* display: flex; */
+    text-align: center;
+}
+
+.boletim-content {
+    margin-top: 20px;
+}
+
+.boletim1 {
+
+    width: 480px;
+
+    height: 40px;
+    box-shadow: 10px #000000;
+    background-color: #FEC536;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.505);
+    z-index: 1;
+}
+
+
+
+.boletpngim-content {
+    width: 480px;
+    background-color: #FFF;
+    color: #000000;
+}
+
+.boletpngim-content img {
+    width: 480px;
+}
+
+.boletini {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-image: url('../img/background.png');
+    height: 700px;
+}
+
+.parte-debaixo {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    height: 200px;
+}
+
+.parte-debaixo p {
+    margin: 0 15px;
+}
+
+.parte-debaixo button {
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.botao-boletim {
+    margin: 5px;
+}

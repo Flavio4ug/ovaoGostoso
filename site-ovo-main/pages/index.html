@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovo</title>
+    <link rel="stylesheet" href="../styles/styles.css"> <!-- Caminho atualizado -->
+    <style>
+        @font-face {
+            font-family: 'pautua';
+            src: url('../fonts/PatuaOne-Regular.ttf');
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/logoSite.png" alt="Ovo Online Casa de Ações"> <!-- Caminho atualizado -->
+        </div>
+        <div class="divisao">
+
+
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar...">
+            </div>
+            <div class="user-icon">
+                <button><img src="../img/Vector.png" alt="vetor"> ASSINE</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-banner">
+        <div class="image-grid">
+            <img src="../img/Rectangle 3.png" alt="Image 1"> <!-- Caminho atualizado -->
+            <img src="../img/Rectangle 4.png" alt="Image 2"> <!-- Caminho atualizado -->
+            <img src="../img/image 4.png" alt="Image 3"> <!-- Caminho atualizado -->
+            <img src="../img/Rectangle 3.png" alt="Image 1"> <!-- Caminho atualizado -->
+            <img src="../img/Rectangle 4.png" alt="Image 2"> <!-- Caminho atualizado -->
+            <img src="../img/image 4.png" alt="Image 3"> <!-- Caminho atualizado -->
+        </div>
+    </section>
+
+    <!-- Início do Carrossel de Navegação -->
+    <div class="carousel-container">
+        <button class="carousel-prev" onclick="moveCarousel(1)">&#10094;</button>
+        <div class="carousel">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Alojamento</a></li>
+                <li><a href="#">Links</a></li>
+                <li><a href="#">Informe</a></li>
+                <li><a href="#">Classificados</a></li>
+                <li><a href="#">Estatística</a></li>
+                <li><a href="#">Cadastro de Clientes</a></li>
+                <li><a href="#">Mural</a></li>
+                <li><a href="#">Culinária</a></li>
+                <li><a href="#">Sobre o Ovo</a></li>
+                <li><a href="#">Galeria de Fotos</a></li>
+            </ul>
+        </div>
+        <button class="carousel-next" onclick="moveCarousel(-1)">&#10095;</button>
+    </div>
+    <!-- Fim do Carrossel de Navegação -->
+
+    <div class="boletini">
+        <section class="boletim">
+            <div class="boletim1">
+                <h2>BOLETIM</h2>
+            </div>
+            <div class="boletpngim-content">
+                <img src="../img/galinhavacina.png" alt="Boletim Image"> <!-- Caminho atualizado -->
+            </div>
+            <div class="parte-debaixo">
+                <button class="botao-boletim botao-esquerda">&#10094;</button>
+                <p class="textoo">Doença aviária é descartada no Rio Grande do Sul, afirma Ministério da Agricultura</p>
+                <button class="botao-boletim botao-direita">&#10095;</button>
+            </div>
+        </section>
+    </div>
+
+    <section class="alojamento">
+        <div class="tituloAlojamento">
+            <h2>Alojamento</h2>
+        </div>
+        <div class="conteudoAlojamento">
+            <p>Ovum est mirabile alimentum, quod plenus est nutrimentis essentialibus. Proteina in ovo alta qualitate est, adiuvans in musculorum aedificatione et reparatione. Praeterea, ova sunt fontes boni cholesteroli, qui corpus adiuvat in hormonum productione et functione cerebri. Ova etiam abundantia sunt in vitaminis, ut vitamini D, quae ossa fortificat, et vitamini B12, quae systema nervosum sustinet. Non solum sapida sunt, sed etiam in multis formis praeparari possunt, a coctis ad fricta, suadens omnis gustus preference. Ova, cum suis beneficis amplis, pars sunt perfecta diætae quotidianae, stabilimenta sanitatem et fortitudinem promoventes.</p>
+            <table>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                  </tr>
+                  <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                  </tr>
+                  <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                  </tr>
+                  <tr>
+                    <td>Ernst Handel</td>
+                    <td>Roland Mendel</td>
+                    <td>Austria</td>
+                  </tr>
+                  <tr>
+                    <td>Island Trading</td>
+                    <td>Helen Bennett</td>
+                    <td>UK</td>
+                  </tr>
+                  <tr>
+                    <td>Laughing Bacchus Winecellars</td>
+                    <td>Yoshi Tannamuri</td>
+                    <td>Canada</td>
+                  </tr>
+                  <tr>
+                    <td>Magazzini Alimentari Riuniti</td>
+                    <td>Giovanni Rovelli</td>
+                    <td>Italy</td>
+                  </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="sobre-nos">
+        <div class="empresa">
+            <h2>Empresa</h2>
+            <img src="../img/empresa.png" alt="Empresa"> <!-- Caminho atualizado -->
+            <p>A Ceva Saúde Animal promoverá um grande encontro técnico sobre sanidade avícola um dia antes da abertura
+                oficial do Congresso de Ovos APA 2024</p>
+        </div>
+        <div class="culinaria">
+            <h2>Culinária</h2>
+            <img src="../img/culinaria.png" alt="Culinária"> <!-- Caminho atualizado -->
+            <p>Receitas gostosas e sabores omeletes ou ovos mexidos</p>
+        </div>
+        <div class="sobre-ovo">
+            <h2>Sobre o Ovo</h2>
+            <img src="../img/sobre o ovo.png" alt="Sobre o Ovo"> <!-- Caminho atualizado -->
+            <p>Ovo e os seus benefícios</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Rua Patrocínio Monteiro n°485 - Centro - Bastos - SP<br>
+            Fone: (14) 3478-3862 ou (14) 9704-1459 - CEP: 17.690-000<br>
+            ovoonline@ovoonline.com.br</p>
+    </footer>
+
+    <script src="../js/script.js"></script> <!-- Caminho atualizado -->
+</body>
+
+</html>
